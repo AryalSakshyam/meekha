@@ -6,8 +6,8 @@ const App = () => {
   return (
     <>
 
-      <Service2 />
       <Home />
+      <Service2 />
 
     </>
   )

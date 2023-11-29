@@ -71,16 +71,16 @@ const Service2 = () => {
         // Main div 
         <>
             <div className=' sm:absolute mb:10 bottom-64 sm:h-4/6 bg-blue-500 flex justify-center'>
-                <div className=' sm:w-3/4  sm:m-10  h:min text-white  sm:flex sm:justify-evenly  '>
+                <div className=' sm:w-3/4  sm:m-10  h-min text-white  sm:flex sm:justify-evenly  '>
 
                     <h1 className=' px-5 mt-5 w-full h-min  sm:text-left text-4xl  font-bold font-mulish  '>Custom Software Development Services</h1>
                     <p className=' px-5 py-5 h-min sm:text-base  sm:w-full text-justify '>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla consequuntur atque quaerat repellat sapiente voluptatum soluta tempora tenetur veniam quibusdam, dignissimos facere error, doloribus odit expedita qui id, beatae quae.</p>
 
                 </div>
             </div>
-            <div className='absolute w-fit sm:p-40'>
+            <div className=' w-fit sm:p-40'>
 
-                <div className=" w-fit h-full  p-12  sm:flex sm:justify-evenly  gap-x-10 bg-white">
+                <div className=" w-fit h-full  p-12  sm:flex sm:justify-evenly  gap-x-1">
                     {services.map((service, index) => (
                         <Service key={index} {...service} />
                     ))}
